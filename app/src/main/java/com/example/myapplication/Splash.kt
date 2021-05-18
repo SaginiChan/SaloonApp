@@ -18,7 +18,7 @@ class Splash : Fragment() {
     ): View? {
         Handler().postDelayed({
             if(onBoardingFinished()){
-                findNavController().navigate(R.id.action_splash_to_homeFragment)
+                findNavController().navigate(R.id.action_splash_to_loginFragment)
             }else{
                 findNavController().navigate(R.id.action_splash_to_viewPagerFragment)
             }

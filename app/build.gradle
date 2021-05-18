@@ -11,6 +11,11 @@ plugins {
 android {
     compileSdkVersion 30
 
+    //viewbinding dependency
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdkVersion 23
@@ -60,5 +65,9 @@ dependencies {
     implementation "androidx.navigation:navigation-compose:1.0.0-alpha10"
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 
-
+    //for one liner
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
 }
