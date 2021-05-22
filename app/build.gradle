@@ -11,9 +11,11 @@ plugins {
 android {
     compileSdkVersion 30
 
-    //viewbinding dependency
-    viewBinding {
-        enabled = true
+
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
     }
 
     defaultConfig {

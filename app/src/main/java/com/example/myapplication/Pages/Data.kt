@@ -9,6 +9,10 @@ import com.example.myapplication.R
 
 class Data : Fragment() {
 
+    /* to understand more on  view binding check
+    * https://developer.android.com/topic/libraries/view-binding#usage
+    * */
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
