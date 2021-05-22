@@ -3,39 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/profile">
+    app:startDestination="@id/data">
 
-    <fragment
-        android:id="@+id/viewPagerFragment"
-        android:name="com.example.myapplication.Onboarding.ViewPagerFragment"
-        android:label="fragment_view_pager"
-        tools:layout="@layout/fragment_view_pager" >
-        <action
-            android:id="@+id/action_viewPagerFragment_to_loginFragment"
-            app:destination="@id/loginFragment"
-            app:popUpTo="@id/viewPagerFragment"
-            app:popUpToInclusive="true"/>
-    </fragment>
-    <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.example.myapplication.Auth.LoginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
-        <action
-            android:id="@+id/action_loginFragment_to_home2"
-            app:destination="@id/home2" />
-    </fragment>
     <fragment
         android:id="@+id/home2"
         android:name="com.example.myapplication.Pages.Home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_home2_to_profile"
-            app:destination="@id/profile" />
+            android:id="@+id/action_home2_to_data"
+            app:destination="@id/data" />
+        <action
+            android:id="@+id/action_home2_to_profile2"
+            app:destination="@id/profile2" />
     </fragment>
     <fragment
-        android:id="@+id/profile"
+        android:id="@+id/data"
+        android:name="com.example.myapplication.Pages.Data"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/profile2"
         android:name="com.example.myapplication.Pages.Profile"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />

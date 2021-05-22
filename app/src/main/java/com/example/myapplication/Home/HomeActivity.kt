@@ -29,7 +29,6 @@ class HomeActivity : AppCompatActivity() {
         navController = navHostFragment.navController
         binding.bottomNavigation.setupWithNavController(navController)
 
-
     }
 
 }
