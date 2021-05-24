@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42983468832",
+    "project_id": "salooonapp",
+    "storage_bucket": "salooonapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42983468832:android:50ba23931b5067f6c4b145",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42983468832-i5581gkv21ucbdpmup5q5ncvald6elsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfC7i3mNxeMs57h8R_sl87csg-K9oKq4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42983468832-i5581gkv21ucbdpmup5q5ncvald6elsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
